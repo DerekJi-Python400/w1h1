@@ -1,0 +1,25 @@
+h1
+    {color: rgb(0, 169, 255);
+    background-color: aquamarine;
+    font-size: 75px;
+    letter-spacing: 10px;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 40px;
+    margin: 10px 66px 20px; 
+    border-width: 10px;
+    border-style:dotted;
+    border-color: darkcyan;
+    border: 30px dotted darkcyan;
+}  
+
+body {
+    font-family: 'Luckiest Guy', Impact;
+    font-family: 'blah blah blah', Impact;
+    text-transform: capitalize;
+}
