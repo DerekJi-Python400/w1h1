@@ -1,15 +1,6 @@
-.container {
-    width: 220px ;
+nav {
 }
 
-.container {
-    width: 18px ;
-}
-
-.container {
-    font-size: 11px;
-}
-
-.icons-container{
-    display: grid;
+.nav-container {
+  max-width: ;
 }
