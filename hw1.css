@@ -25,6 +25,11 @@ nav {
   color: #000;
 }
 
+.nav-container button {
+  background-color: #335eea;
+  color: rgb(232, 236, 252);
+}
+
 .hero-container {
   max-width: 1024px;
   width: 100%;
@@ -53,7 +58,11 @@ nav {
 }
 
 .companies-container {
-  width: 10px;
+  margin: auto;
+  max-width: 1024px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  color: #92a2be;
 }
 
 body {
@@ -80,7 +89,7 @@ p {
 
 .container p {
   font-size: 20px;
-  color: rgb(120, 139, 174);
+  color: rgb(151, 173, 197);
   margin-bottom: 30px;
   font-family: "roboto", sans-serif;
   word-spacing: 1px;
@@ -95,8 +104,8 @@ p {
 }
 
 .container button:first-of-type {
-  background-color: rgb(56, 81, 231);
-  color: white;
+  background-color: #335eea;
+  color: rgb(232, 236, 252);
 }
 
 .container button:last-of-type {
