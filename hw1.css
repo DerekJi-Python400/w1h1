@@ -1,3 +1,8 @@
+.html {
+  width: auto;
+  height: auto;
+}
+
 nav {
   width: 100%;
   display: flex;
@@ -9,6 +14,12 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .nav-container md\:hidden {
+    display: none;
+  }
 }
 
 .nav-container ul {
@@ -30,6 +41,15 @@ nav {
   color: rgb(232, 236, 252);
 }
 
+.H-Menu {
+  display: none;
+}
+
+.Icon {
+  height: 24px;
+  width: 24px;
+}
+
 .hero-container {
   max-width: 1024px;
   width: 100%;
@@ -49,12 +69,23 @@ nav {
   justify-content: center;
 }
 
+.title-container button:first-of-type {
+  background-color: #335eea;
+  color: rgb(232, 236, 252);
+}
+
+.Button-All {
+  display: flex;
+  flex-direction: row;
+}
+
 .highlight-container {
   width: 100%;
   max-width: 1024px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding: 55px 0;
 }
 
 .companies-container {
@@ -62,7 +93,72 @@ nav {
   max-width: 1024px;
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
+
+  padding: 0px 0;
+
   color: #92a2be;
+}
+.Companies-1 {
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  flex: 0 0 auto;
+  width: 41.66667%;
+
+  padding: auto;
+  position: relative;
+  display: grid;
+  justify-self: start;
+  min-width: 0%;
+  width: 50%;
+
+  max-width: 512px;
+}
+
+.Companies-form {
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+}
+.Companies-form input {
+  line-height: 1.25;
+  width: 100%;
+  margin: auto;
+  color: black;
+  font-weight: 300px;
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 0;
+  border-width: 0 0 1px;
+  width: auto;
+  padding: 25px 0;
+  border-color: lightgray;
+}
+.Companies-form input:focus {
+  border-color: #0d6efd;
+}
+
+.Companies-form button {
+  margin: auto;
+  padding: 434px 55.19px;
+  width: 40px;
+}
+
+.Companies-1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 4rem;
+  /* padding: 100px 320px; */
+  font-size: 15px;
+  border: none;
+  padding: 50px 0;
+}
+
+.Companies-1 span {
+  color: #42ba96 !important;
 }
 
 body {
@@ -97,18 +193,9 @@ p {
 }
 
 .container button {
+  width: 125px;
   padding: 4px 8px;
   font-size: 15px;
   border: none;
   border-radius: 5px;
-}
-
-.container button:first-of-type {
-  background-color: #335eea;
-  color: rgb(232, 236, 252);
-}
-
-.container button:last-of-type {
-  background-color: rgb(232, 236, 252);
-  color: rgb(70, 94, 233);
 }
